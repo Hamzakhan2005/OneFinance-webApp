@@ -1,0 +1,60 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 25vh;
+}
+
+.title h1{
+    color: rgba(3, 0, 1, 0.717);
+    font-size: 4vw;
+    font-weight: 600;
+}
+
+.line{
+    margin: 1.5vh 0;
+    display: flex;
+    font-size: 1.5vw;
+    justify-content: center;
+}
+
+.line h3{
+    font-weight: 600;
+    background: linear-gradient(to right, #fc5c7d, #6a82fb);
+    background-clip: text;
+    color: #6a82fb00;
+}
+
+.home h6{
+    margin-top: 5vw;
+    font-size: 1.3vw;
+    text-align: center;
+}
+
+.scroll{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 1.3vw 0;
+    font-size: 1.2vw;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-6px);
+    }
+    60% {
+      transform: translateY(-3px);
+    }
+  }
+  
+  .bounce {
+    animation: bounce 2s infinite;
+  }

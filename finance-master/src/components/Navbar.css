@@ -1,0 +1,49 @@
+.navbar{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+}
+
+.heading a{
+    all: unset;
+    cursor: pointer;
+}
+
+.heading h1{
+    font-family: "Playwrite ES Deco", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    background: linear-gradient(to right, #fc5c7d, #6a82fb);
+    background-clip: text;
+    color: #6a82fb00;
+    font-size: 3vw;
+}
+
+li{
+    all: unset;
+}
+
+.navbar ul{
+    margin: 0 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+    width:max-content;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vw;
+}
+
+.links a{
+    all: unset;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.3vw;
+    cursor: pointer;
+}
+
+.links a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.login-page{
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    background-color: rgb(212, 16, 124);
+    height: 100vh;
+    width: 30%;
+}
+
+.heading h1{
+    font-size: 4vw;
+    font-weight: 300;
+    text-align: center;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.card{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+}
+
+.login-details{
+    height: 100%;
+}
+
+
+.fields form{
+    text-align: left;
+    padding: 3vw;
+}
+
+.fields form h3{
+    text-align: left;
+    font-weight: 300;
+    font-size: 1.5vw;
+}
+.fields input{
+    margin: 0.5vw 0 2vw 0;
+    border-radius: 0.5vw;
+    border-style: solid;
+    padding: 1vw;
+    font-size: 1vw;
+    width: 40vw;
+}
+.fields button{
+    margin: 0.5vw 0;
+    background-color: rgb(212, 16, 124);
+    width: 100%;
+    height: 3.5vw;
+    padding: 1vw;
+    border: 0;
+    border-radius: 0.5vw;
+}
+
+.password-field{
+    display: inline;
+    position: relative;
+    height: fit-content;
+}
+
+.password-field button img{
+    width: 2vw;
+}
+
+.password-field button{
+    all: unset;
+    position: absolute;
+    right: 2%;
+    top: -10%;
+    cursor: pointer;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1vw;
+    font-size: 1.1vw;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 60%;
+    transition: opacity 100ms;
+}
+
+a{
+    all: unset;
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.login-btn{
+    font-size: 1.2vw;
+}
+
+@media only screen and (max-width: 500px) {
+    .left{
+        height: 114vh;
+    }
+
+    .heading h1{
+        font-size: 10vw;
+    }
+
+    .fields form h3{
+        font-size: 5vw;
+    }
+
+    .fields form label{
+        padding: 20vw;
+    }
+
+    .fields form input{
+        width: 90%;
+        padding: 2vw 2vw;
+        font-size: 2.5vw;
+    }
+
+    .fields button{
+        height: max-content;
+    }
+
+    .password-field button img{
+        height: auto;
+        width: 4vw;
+    }
+
+    .password-field button{
+        top: 10%;
+        right: 3%;
+    }
+
+    .options{
+        font-size: 2vw;
+    }
+
+    .login-btn{
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .password-field button{
+        top: 20%;
+    }
+}
+
+@media only screen and (min-width: 855px) {
+    .password-field button{
+        top: 20%;
+    }
+}
+
+@media only screen and (min-width: 950px) {
+    .password-field button{
+        top: 0%;
+    }
+}
